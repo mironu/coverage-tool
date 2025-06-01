@@ -6,6 +6,7 @@ find_package(Clang REQUIRED CONFIG)
 
 include_directories(${LLVM_INCLUDE_DIRS})
 include_directories(${CLANG_INCLUDE_DIRS})
+include_directories(${CMAKE_ROOT})
 add_definitions(${LLVM_DEFINITIONS})
 
 add_executable(coverage_tool main.cpp)

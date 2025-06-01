@@ -1,1 +1,4 @@
+.vscode
 build
+generated
+source_test
